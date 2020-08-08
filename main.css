@@ -1,60 +1,95 @@
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
+   
 }
+
+
 
 body {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+ 
+    background-color: white;
+   
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #222;
-    font-weight: 600;
-    line-height: 1.3;
+/*kiki1 {
+    color:rgba(255, 99, 71, 0.8);
+    font-weight:bolder;
+    font: 50px Impact, sans-serif;
+    background-color: white;
+    font-weight:bold;
 }
+*/
+
+h1  {
+    color: rgba(255, 99, 71, 0.8);
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+mark.categories{
+    color: #4d4d4d;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 700px;
+    word-spacing: 100px;
+    background-color: white;
+}
+
+a.bookmarks:active {color: darkcyan; }
+a.bookmarks:link {color: darkcyan; text-decoration: none; }
+a.bookmarks:visited {color: darkcyan; text-decoration: none; }
+a.bookmarks:hover {color: darkcyan; text-decoration: none; }
+
+a.writing:active {color: darkblue; }
+a.writing:link {color: lightblue; text-decoration: none; }
+a.writing:visited {color: lightblue; text-decoration: none; }
+a.writing:hover {color: darkblue; text-decoration: none; }
+
+/*
+a.origami:active {color: darkblue; }
+a.origami:link {color: lightblue; text-decoration: none; }
+a.origami:visited {color: lightblue; text-decoration: none; }
+a.origami: hover {color: darkblue; text-decoration: none; }
+
+a.about:active {color: darkblue; }
+a.about:link {color: lightblue; text-decoration: none; }
+a.about:visited {color: blue; text-decoration: none; }
+a.about: hover {color: darkblue; text-decoration: none; }
+
+*/
+
 
 h2 {
-    margin-top: 1.3em;
+    color: aquamarine;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-left: 760px;
 }
 
-a {
-    color: #0083e8;
-}
 
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
-}
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
+    padding-top: 50px;
+    padding-left: 90px;
 }
 
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
+p {
+    color: black;
+    font-weight:normal;
+    font: 15px Nuninto, sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-left: 400px;
+    padding-right: 150px;
+       
 }
+
+mark.kiki2 {
+    color:rgba(255, 99, 71, 0.8);
+    background-color: white;
+    font-weight:bold;
+}
+
