@@ -4,9 +4,10 @@ html {
 
 
 
-body {
+ body {
  
     background-color: white;
+
    
 }
 
@@ -16,9 +17,12 @@ body {
     font: 50px Impact, sans-serif;
     background-color: white;
     font-weight:bold;
-}
+} 
 */
 
+
+    
+}
 h1  {
     color: rgba(255, 99, 71, 0.8);
     font-family: 'Satisfy', cursive;
@@ -34,8 +38,9 @@ mark.categories{
     letter-spacing: 1px;
     padding-left: 700px;
     word-spacing: 100px;
-    background-color: white;
+    background-color: transparent;
 }
+
 
 a.bookmarks:active {color: darkcyan; }
 a.bookmarks:link {color: darkcyan; text-decoration: none; }
@@ -60,6 +65,8 @@ a.about: hover {color: darkblue; text-decoration: none; }
 
 */
 
+
+}
 
 h2 {
     color: aquamarine;
