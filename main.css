@@ -10,71 +10,122 @@ html {
 }
 
 body {
-
-  background-repeat: no-repeat;
-  background-size: cover; 
- 
-  background-origin: content-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   
    
 }
     
-
-h1  {
-    color: white;
-    font-family: 'Satisfy', cursive;
-    font-size: 50px;
-    letter-spacing: 1px;
-    padding-left: 30px;
-}
-
-mark.categories{
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding-left: 760px;
-    word-spacing: 100px;
-    background-color: transparent; 
-}
-
-
-a.bookmarks:active {color: darkcyan; }
-a.bookmarks:link {color: darkcyan; text-decoration: none; }
-a.bookmarks:visited {color: darkcyan; text-decoration: none; }
-a.bookmarks:hover {color: darkcyan; text-decoration: none; }
-
-a.writing:active {color: darkblue; }
-a.writing:link {color: white; text-decoration: none; }
-a.writing:visited {color: white; text-decoration: none; }
-a.writing:hover {color: darkblue; text-decoration: none; }
-
-
-
-h2 {
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 80px;
-    letter-spacing: 1px;
+.mainpages {
+    position: relative;
     text-align: center;
-    padding-top: 40px;
+    color: white;  
+}
+
+.bookmarkicon {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+}
+
+.writing {
+  position: absolute;
+  top: 40px;
+  left: 1080px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+}
+
+.origami {
+  position: absolute;
+  top: 40px;
+  left: 1190px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+}
+
+.about {
+  position: absolute;
+  top: 40px;
+  left: 1300px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+}
+
+a.bookmarks:active {color: white; }
+a.bookmarks:link {color: white; text-decoration: none; }
+a.bookmarks:visited {color: white; text-decoration: none; }
+a.bookmarks:hover {color: white; text-decoration: none; }
+
+a.links:active {color: darkblue; }
+a.links:link {color: white; text-decoration: none; }
+a.links:visited {color: white; text-decoration: none; }
+a.links:hover {color: darkblue; text-decoration: none; }
+    
+}
+
+
+.expl{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    color: black;
+    background-color: transparent;
+}
+
+.topic-read{
+  position: absolute;
+  top: 183px;
+  left: 500px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 80px;
+color: white;
+background-color: transparent; 
+}
+    
+.topic-ori{
+  position: absolute;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 80px;
+ top: 145px;
+  left: -700px;
+color: white;
+background-color: transparent;    
+}
+
+.topic-abt{
+  position: absolute;
+  font-family: 'Fjalla One', sans-serif;
+font-size: 80px;
+ top: 145px;
+  left: -860px;
+color: white;
+background-color: transparent;    
 }
 
 
 
-img {
+
+
+/*img {
     padding-top: 50px;
     padding-left: 90px;
 }
+*/
 
 p {
-    color: black;
+    color: slategrey;
     font-weight:normal;
     font: 15px Nuninto, sans-serif;
     line-height: 2;
     letter-spacing: 1px;
-    padding-left: 400px;
-    padding-right: 150px;
+    background-color: gainsboro;
+
        
 }
 
