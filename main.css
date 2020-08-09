@@ -1,30 +1,27 @@
 html {
    
-}
 
 
 
- body {
- 
-    background-color: white;
+
 
    
+
 }
 
-/*kiki1 {
-    color:rgba(255, 99, 71, 0.8);
-    font-weight:bolder;
-    font: 50px Impact, sans-serif;
-    background-color: white;
-    font-weight:bold;
-} 
-*/
+body {
 
-
+  background-repeat: no-repeat;
+  background-size: cover; 
+ 
+  background-origin: content-box;
+  
+   
+}
     
-}
+
 h1  {
-    color: rgba(255, 99, 71, 0.8);
+    color: white;
     font-family: 'Satisfy', cursive;
     font-size: 50px;
     letter-spacing: 1px;
@@ -32,11 +29,11 @@ h1  {
 }
 
 mark.categories{
-    color: #4d4d4d;
+    color: white;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
-    padding-left: 700px;
+    padding-left: 760px;
     word-spacing: 100px;
     background-color: transparent; 
 }
@@ -48,32 +45,19 @@ a.bookmarks:visited {color: darkcyan; text-decoration: none; }
 a.bookmarks:hover {color: darkcyan; text-decoration: none; }
 
 a.writing:active {color: darkblue; }
-a.writing:link {color: lightblue; text-decoration: none; }
-a.writing:visited {color: lightblue; text-decoration: none; }
+a.writing:link {color: white; text-decoration: none; }
+a.writing:visited {color: white; text-decoration: none; }
 a.writing:hover {color: darkblue; text-decoration: none; }
 
-/*
-a.origami:active {color: darkblue; }
-a.origami:link {color: lightblue; text-decoration: none; }
-a.origami:visited {color: lightblue; text-decoration: none; }
-a.origami: hover {color: darkblue; text-decoration: none; }
 
-a.about:active {color: darkblue; }
-a.about:link {color: lightblue; text-decoration: none; }
-a.about:visited {color: blue; text-decoration: none; }
-a.about: hover {color: darkblue; text-decoration: none; }
-
-*/
-
-
-}
 
 h2 {
-    color: aquamarine;
+    color: white;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 40px;
+    font-size: 80px;
     letter-spacing: 1px;
-    padding-left: 760px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 
@@ -96,7 +80,8 @@ p {
 
 mark.kiki2 {
     color:rgba(255, 99, 71, 0.8);
-    background-color: white;
+    background-color: transparent;
     font-weight:bold;
+}
 }
 
