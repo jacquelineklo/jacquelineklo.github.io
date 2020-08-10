@@ -1,12 +1,6 @@
 html {
    
 
-
-
-
-
-   
-
 }
 
 body {
@@ -111,13 +105,6 @@ background-color: transparent;
 
 
 
-
-/*img {
-    padding-top: 50px;
-    padding-left: 90px;
-}
-*/
-
 p {
     color: slategrey;
     font-weight:normal;
@@ -134,5 +121,98 @@ mark.kiki2 {
     background-color: transparent;
     font-weight:bold;
 }
+
+
+@media screen and (max-width: 900px)
+.footer {
+    margin-top: 50px;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: left;
 }
+
+div{
+  display: block;  
+    
+}
+
+.reviews_gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.reviews_gallery li{
+    list-style-type: none;
+}
+
+
+
+.book_title{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+.book_img{
+    height: 300px;
+    opacity: 0.6;
+    overflow: hidden;
+    align-content: center;
+}
+
+.book_review_summary{
+    color: dimgrey;
+    font-weight:normal;
+    font: 15px 'Fjalla One', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    background-color: transparent;
+    
+}
+
+.book_img :hover .book_img{
+    opacity: 1;
+}
+
+
+.origami_gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.origami_gallery li{
+    list-style-type: none;
+}
+
+
+
+.orig_name{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+.orig_img{
+    height: 300px;
+    opacity: 0.6;
+    overflow: hidden;
+    align-content: center;
+}
+
+
+
+.orig_img :hover .orig_img{
+    opacity: 1;
+
+
 
