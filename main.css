@@ -58,10 +58,10 @@ body {
     color: olivedrab;
     padding: 1.5% 2.5%;
     text-decoration: none;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 
@@ -244,7 +244,7 @@ div{
     float: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: lighter;
     padding: 1%;
     padding-left: 3.5%;
     color: gray;
@@ -263,7 +263,7 @@ div{
     float: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: lighter;
     text-align: left;
 }
 
