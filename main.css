@@ -280,67 +280,148 @@ a.about-links:visited {color: olivedrab; text-decoration: none; }
 a.about-links:hover {color: black; text-decoration: none; }
 
 
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    text-overflow: '';
-    color: #fff !important;
-}
-select option {
-  color: #000 !important;
-}
-select::-ms-expand {
-    display: none;
+/*.modal{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    
+    
+    
 }
 
-
-.sectional-nav {
-  background-color: #202a35;
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
 }
 
-.sectional-nav ul li {
-  display: inline-block;
-  list-style-type: none;
-  text-transform: uppercase;
-  margin-right: 12px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1;
-  padding: 15px 10px;
+.modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
 }
-.sectional-nav ul li:first-of-type {
-  padding: 30px 10px;
+
+.modal-header .title{
+    
+    font-size: 1.25rem;
+    font-weight: bold;
 }
-.sectional-nav ul li:hover {
-  background-color: #0479c3;
+
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background:none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body{
+    
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity:0;
+    top:0; left:0; right:0;bottom=0;
+    transition: 200ms ease-in-out;
+    background-color: grey;
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+*/
+
+#myImg {
+  border-radius: 5px;
   cursor: pointer;
-  color: #fff;
-}
-.sectional-nav ul li a {
-  color: #fff;
-}
-.sectional-nav ul li:hover a {
-  color: #eeeeee;
+  transition: 0.3s;
 }
 
+#myImg:hover {opacity: 0.7;}
 
-@media screen and (max-width: 992px) {
-  .sectional-nav ul li {
-    font-size: 16px;  
-  }
-  .sectional-nav ul li {
-    padding: 20px 5px;
-  }
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-@media screen and (max-width: 767px) {
-  .sectional-nav #sectional_nav {
-    height: 60px;
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
     width: 100%;
-    font-size: 18px;
-    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
-    background-position: 98% 50%;
-    background-repeat: no-repeat;
   }
+}
 
 

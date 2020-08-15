@@ -15,9 +15,11 @@
     
 </head>
     
+       
     
 <body>
-
+         
+  <script src="navigation.js"></script> 
 <header>
 <div class ="mainpages">
    
@@ -102,14 +104,50 @@
     
     </ul>
     
-    </div>   
+    </div>  
+    
+    
+   
      
+    <button data-modal-target="#modal"> Open Modal</button>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title"> Example </div>
+            <button data-close-button class="close-button"> &times;</button>
+    </div>
+    <div class="modal-body">
+        hello this is the sample text for the pop up window 
+        
+        
+        </div>
+        
+        
+        <div id="#overlay"></div>
+    </div>
     
     
-    
-    
+    <!-- Trigger the Modal -->
+<img id="myImg" src="images/theslientpatient.jpg" alt="book" style="width:100%;max-width:300px">
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+        
     
+    
+    
+    
+ 
+
     
     
   

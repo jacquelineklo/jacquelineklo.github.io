@@ -5,8 +5,9 @@
     
 <head>
  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
  <link rel="stylesheet" type="text/css" href="main.css"> 
+     
 
 
 <style>
@@ -21,6 +22,8 @@
     
   
 <body>
+    
+      <script src="navigation.js"></script>
  <header>
 <div class ="mainpages">
    
@@ -35,21 +38,6 @@
 
       </div>
     
- <div class="sectional-nav clearBoth">
-	<div class="container">
-	  <ul class="hidden-sm-down p-0 d-flex align-items-center justify-content-between">
-		<li><a href="writing.html">Reads</a></li>
-		<li><a href="origami.html">Folds</a></li>
-		<li><a href="about.html">About</a></li>
-	  </ul> 
-	</div>
-	<select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
-	  <option value="0">Navigate to...</option>
-	  <option value="writing.html">Reads</option>
-	  <option value="origami.html">Folds</option>
-	  <option value="about.html">About</option>
-	</select>
-</div>   
 
     
 <div class="main_img">
@@ -62,6 +50,9 @@
     
     
     </div>
+    
+    
+    <input type="button" value="Result" onclick="display()"/>
       
       
   
@@ -70,6 +61,8 @@
     </div>
     
 </header>
+    
+      
     
 
     
