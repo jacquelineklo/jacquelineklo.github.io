@@ -21,9 +21,18 @@ body {
     display: inline-block;
 }
 
-.pic-style{
-    filter:brightness(60%);
+.mainpic-style{
+   width = 100%;
+    filter:contrast(250%) brightness(40%) grayscale(30%);
+    opacity: 70%;
+
 }
+
+.pic-style{
+   width = 100%;
+   filter: blur(50%);
+}
+
 
 .text-block {
    position: absolute;
@@ -52,19 +61,10 @@ body {
      line-height: 4px;
 }
 
-/*horiz-bar{
+horiz-bar{
     transition: border-width 3s linear;
-}*/
-
-horizline {
-
-  background: none;
-  border: 1;
-  margin: 1em;
-  padding: 1em 2em;
-     transition: color 3s;
-
 }
+
 
 
 
@@ -75,8 +75,9 @@ horizline {
     padding-left: 10px;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 50px;
-    
+
 }
+
 
 .frontpagetitle{
     font-family: 'Cedarville Cursive', cursive;
@@ -95,7 +96,7 @@ horizline {
 
 .sections a {
     float: right;
-    color: olivedrab;
+    color: saddlebrown;
     padding: 1.5% 2.5%;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -106,15 +107,15 @@ horizline {
 
 
 
-a.bookmarks:active {color: slategrey; }
-a.bookmarks:link {color: slategrey; text-decoration: none; }
-a.bookmarks:visited {color: slategrey; text-decoration: none; }
-a.bookmarks:hover {color: olivedrab; text-decoration: none; }
+
+a.bookmarks:link {color:maroon; text-decoration: none; }
+a.bookmarks:visited {color: maroon; text-decoration: none; }
+a.bookmarks:hover {color: firebrick; text-decoration: none; }
 
 /*a.links:active {color: brown; }
 a.links:link {color: darkgrey; text-decoration: none; }
 a.links:visited {color: darkgrey; text-decoration: none; } */
-a.links:hover {color: black; text-decoration: none; }
+a.links:hover {color: saddlebrown; text-decoration: none; }
     
 }
 
@@ -232,6 +233,69 @@ div{
 .book_img :hover .book_img{
     filter:brightness(60%);
 }
+
+
+.book-review-pic {
+    float: left;
+    padding: 5% 5%;
+    width: 300px;
+}
+
+.book-review-title{
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px; 
+    font-weight: bold;
+    padding-top: 3%;
+
+}
+
+.book-review-author{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 0;
+
+}
+
+.book-review-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 0;
+    color: slategrey;
+    padding: 1%;
+    
+}
+mark.book-review-categories{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+   
+}
+
+
+
+.homelink a {
+    color: olivedrab;
+    text-decoration: underline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.homelink {
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+a.homelink:active {color: slategrey; }
+a.homelink:link {color: slategrey; text-decoration: underline; }
+a.homelink:visited {color: slategrey; text-decoration: underline; }
+a.homelink:hover {color: olivedrab; text-decoration: underline; }
+
+
+
+
 
 
 .origami_gallery{
